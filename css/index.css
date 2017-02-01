@@ -1,0 +1,107 @@
+body {
+  background-color: #71397f;
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  float: left;
+  clear: both;
+  width: 48.9166666666%;
+  height: 923px;
+  margin: 66px 0 0 26.66667%;
+  background-color: rgb(225, 114, 255);
+}
+
+.element {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 25%;
+  height: 300px;
+  margin-left: 37.5%;
+  border: 24px solid rgba(57, 29, 64, 0.83);
+  background-color: rgba(170, 96, 189, 0.82);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.77) inset, 2px 2px 2px rgba(0, 0, 0, 0.77);
+}
+
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 2;
+  width: 245px;
+  height: auto;
+  margin: -268px 0 0 40.06641%;
+  overflow: hidden;
+}
+
+.text {
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 45.1666666666%;
+  min-height: 104px;
+  margin-left: 25px;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+._button {
+  display: block;
+  float: left;
+  width: 7.6002604166%;
+  height: 36px;
+  margin-top: 26px;
+  border-radius: 3px;
+  background-color: #e172ff;
+  box-shadow: 0 7px 2px rgba(0, 0, 0, .5);
+  text-shadow: 0 2px 1px rgba(0, 0, 0, .5);
+  font-family: Oswald;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._button-1 {
+  margin-left: 10%;
+}
+
+._button-2 {
+  position: relative;
+  z-index: 4;
+  margin-left: 17px;
+}
+
+._button-3,
+._button-4 {
+  margin-left: 19px;
+}
+
+.text strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-size: 4em;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
