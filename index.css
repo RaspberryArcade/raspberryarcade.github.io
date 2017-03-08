@@ -58,7 +58,7 @@ button:active{
 }
 button:focus{
   outline:0;
-  font-weight: 2em;
+  font-weight: bold;
 }
 #nav{
   display: flex;
