@@ -56,6 +56,9 @@ button:active{
   transform: translateY(4px);
   box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
 }
+button:focus{
+  outline:0;
+}
 #nav{
   display: flex;
   flex-wrap: nowrap;
