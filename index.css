@@ -54,8 +54,6 @@ button{
 }
 button:active{
   transform: translateY(4px);
-}   
-
 }
 #nav{
   display: flex;
