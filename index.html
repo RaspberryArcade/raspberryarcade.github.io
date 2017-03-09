@@ -9,14 +9,15 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <link id="stylesheet" rel="stylesheet" href="index.css">
 <script language="javascript" type="text/javascript">
-window.mobilecheck = function() {
-  var check = false;
-  (function(a){if(/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/.test(a.substr(0,4))) check = true;})(navigator.userAgent||navigator.vendor||window.opera);
-  return check;
-if check == true{
-windows.location.href="https://raspberryarcade.github.io/mobile";
+var u = navigator.userAgent;
+var m = "/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/";
+var check = "false";
+if (u.search(/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/) == m){
+check = "true";
 }
-};
+if (check == true){
+window.location.href="raspberryarcade.github.io/mobile";
+}
 </script>
 <body>
 
